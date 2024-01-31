@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/Style.css">
+    <link rel="manifest"  href="Manifest.json">
+    <title>Formulario de Países, Estados, Localidades y Municipios</title>
+
+</head>
+<body>
+    <form>
+        <label for="country">País:</label>
+        <select id="country" onchange="updateStates()">
+            <option value="">Selecciona un país</option>
+        </select>
+
+        <br>
+
+        <label for="state">Estado:</label>
+        <select id="state" onchange="updateCities()">
+            <option value="">Selecciona un estado</option>
+        </select>
+
+        <br>
+
+        <label for="city">Localidad:</label>
+        <select id="city" onchange="updateMunicipalities()">
+            <option value="">Selecciona una localidad</option>
+        </select>
+
+        <br>
+
+        <label for="municipality">Municipio:</label>
+        <select id="municipality">
+            <option value="">Selecciona un municipio</option>
+        </select>
+
+        <br>
+
+        <button type="button" onclick="showSelection()">Mostrar Selección</button>
+    </form>
+    <script src="./js/Formulario.js"></script>
+</body>
+</html>

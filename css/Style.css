@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #a6c0fe, #f68084), url('../Img/Fondo.jpg');
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background: linear-gradient(to right, #f9f9f9, #eeeeee);
+}
+
+button {
+    background: linear-gradient(to right, #4caf50, #45a049);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #45a049, #3f9142);
+}
+
+button:active {
+    background: linear-gradient(to right, #3f9142, #398b3c);
+}
+
+.alert {
+    background: linear-gradient(to right, #f44336, #c9302c);
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+/* Puedes ajustar los colores y estilos según tus preferencias */
